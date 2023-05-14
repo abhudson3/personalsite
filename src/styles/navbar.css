@@ -1,26 +1,51 @@
 .navbar-list {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 1%;
+  padding-right: 1%;
+}
+#home {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+  background-color: #242424;
+}
+.navbar-list li {
+  padding-top: 1%;
+  margin: 0 1.2%;
+  font-size: 1.2rem;
+  font-family: "Roboto Mono", monospace;
+  cursor: pointer;
+}
+@media (max-width: 768px) {
+  .navbar-list {
     list-style: none;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     padding: 0;
     margin: 0;
     margin-bottom: 1%;
-
+    padding-top: 3%;
+    height: 4vh;
   }
-#home{
-  
+  #home {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 9999;
     background-color: #242424;
-  
-}
+  }
   .navbar-list li {
     padding-top: 1%;
-    margin: 0 1.2%;
-    font-size: 1.2rem;
-    font-family: 'Roboto Mono', monospace;
+    margin: 0 3.5%;
+    font-size: 3vw;
+    font-family: "Roboto Mono", monospace;
     cursor: pointer;
   }
+}

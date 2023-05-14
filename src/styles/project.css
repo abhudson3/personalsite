@@ -1,50 +1,141 @@
-.outer{
-    /* DO NOT CHANGE */
-    background-color: rgb(33, 37, 41);
+.outer {
+  background-color: rgb(33, 37, 41);
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  height: 72vh;
+}
+.projectbullet {
+  list-style-type: none;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+.projectbullet::before {
+  content: "+";
+  display: inline-block;
+  width: 1em;
+}
+.devtools{
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+.project {
+  margin: auto;
+  display: flex;
+  box-sizing: border-box;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  flex-direction: row;
+}
+
+.innerleft {
+  box-sizing: border-box;
+  align-items: center;
+  text-align: left;
+  font-size: 1.5vw;
+}
+
+.left {
+  padding: 4%;
+  padding-left: 6%;
+  flex-basis: 45%;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+}
+
+.right {
+  flex-basis: 55%;
+  padding-left: 2%;
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+.projectlist {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.imageouter {
+  width: 80%;
+  position: relative;
+}
+
+.projectimage {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+}
+.projtitle{
+    font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .project {
+    flex-direction: column;
+  }
+  /* idea - use inverted color for project page fonts */
+
+  .left {
+    padding: 4%;
+    padding-left: 6%;
+    flex-basis: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+  }
+  .projectbullet {
+    list-style-type: none;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    font-size: 4vw;
+  }
+  .devtools{
+    font-size: 6vw;
+    font-weight: 300;
+}
+  .projectbullet::before {
+    content: "+";
+    display: inline-block;
+    width: 1em;
+  }
+  .projtitle {
+    font-size: 7vw;
+    font-weight: 300;
+  }
+  .projdesc {
+    font-size: 4vw;
+  }
+
+  .right {
+    flex-basis: 100%;
+    padding-left: 0;
+    margin-top: 4%;
+  }
+
+  .imageouter {
+    padding-top: 6%;
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .outer {
     width: 100%;
     padding-top: 6%;
     padding-bottom: 6%;
-}
-.project{
-    /* DO NOT CHANGE */
-    margin: auto;
-    display: flex;
-    box-sizing: border-box;
-    align-items: center;
+    height: 80vh;
+  }
+  .projectlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  .projectimage {
     width: 100%;
-    height: 70%;
-
-}
-.innerleft{
-    /* DO NOT CHANGE */
-    box-sizing: border-box;
-    align-items: center;
-    text-align: left;
-}
-
-
-.left{
-    /* DO NOT CHANGE */
-    padding: 4%;
-    padding-left: 6%;
-    flex-basis: 45%;
-    box-sizing: border-box;
-    text-align: left;
-    align-items: center;
-
-}
-.right{
-    /* DO NOT CHANGE */
-   flex-basis: 55%;
-   padding-left: 2%;
-   box-sizing: border-box;
-   overflow: hidden; 
-   position: relative;
-}
-.imageouter{
-    width: 70%;
-}
-.projectimage{
-    width: 100%;
-    height: 100%;
+  }
 }

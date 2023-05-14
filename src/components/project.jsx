@@ -8,10 +8,10 @@ function Project(props) {
       <div className="project">
         <div className="left">
           <div className="innerleft">
-            <h2>{props.title}</h2>
-            <p>{props.shortdesc}</p>
-            <p>Development Tools</p>
-            <ul>
+            <h2 className="projtitle">{props.title}</h2>
+            <p className="projdesc">{props.shortdesc}</p>
+            <h2 className="devtools">Development Tools</h2>
+            <ul className="projectlist">
               {props.tools.map((tool) => (
                 <li key={uuidv4()} className="projectbullet">{tool}</li>
               ))}
