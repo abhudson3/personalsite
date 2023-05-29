@@ -128,7 +128,6 @@ function App() {
       <div id="contactshell" className="contactshell">
         <div className="contact">
           <p className="contacttitle">Contact Me</p>
-          <p className="contactsub">Telephone - 205-222-9337</p>
           <a href="mailto:abhudson3@crimson.ua.edu" className="contactsub">
             Email - abhudson3@crimson.ua.edu
           </a>
