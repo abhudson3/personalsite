@@ -55,7 +55,8 @@ function App() {
       <div className="welcome-page">
         <p className="nameintro">hi, my name is</p>
         <p className="name">Andrew Hudson</p>
-        <p className="title">I like to make cool things</p>
+        <p className="title">I like to make cool things.</p>
+        <p className="title">Objectively!</p>
         <p className="title-2">You can contact me</p>
         <p
           className="here"
