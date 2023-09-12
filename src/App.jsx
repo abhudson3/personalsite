@@ -88,13 +88,12 @@ function App() {
         <div className="about">
           <p className="abouttitle">About me</p>
           <p className="aboutsub">
-            I am a junior at the University of Alabama. I am in the accelerated
-            masters program for Management Information Systems. Technology and
+            I am a junior at the University of Alabama. I am in the Accelerated
+            Masters Program for Management Information Systems. Technology and
             the way it works been my obsession for the last decade.
           </p>
           <p className="aboutsub">
-            I am also very passionate about music, sustainability, and anything
-            involving the history of Disney.
+            I am also like music, sustainability, and anything involving the history of technology.
           </p>
         </div>
       </div>
@@ -111,7 +110,7 @@ function App() {
         color="#452e1a"
         title="Pariveda Project"
         id="prop2"
-        shortdesc="A project for my Business Programming 1 class,  it allows users to choose a class to be either notified or registered for when a spot opens up.
+        shortdesc="A bonus project for my Business Programming I class,  it allows users to choose a class to be either notified or registered for when a spot opens up.
         A web version is currently in developement."
         tools={["C#", "WinForms", "Selenium"]}
         image="https://i.imgur.com/qzr05X0.png"
@@ -121,7 +120,7 @@ function App() {
         color="darkslategray"
         title="MIS 321 Solo Project"
         id="prop2"
-        shortdesc="A project for my Business Programming 2 class, it was a playlist app that allowed users to choose songs to add to the playlist, remove them, like them, as well as other functionalities."
+        shortdesc="A project for my Business Programming II class, it was a playlist app that allowed users to choose songs to add to the playlist, remove them, like them, as well as other functionalities."
         tools={[".NET Web-API", "Bootstrap", "VanillaJS", "MySQL", "JQuery"]}
         image="https://i.imgur.com/BwaSgrX.png"
         alt="MIS 321 Solo Project"
