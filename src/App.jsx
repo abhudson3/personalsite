@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "./App.css";
 import Navbar from "./components/navbar";
 import Project from "./components/project";
@@ -90,10 +89,10 @@ function App() {
           <p className="aboutsub">
             I am a junior at the University of Alabama. I am in the Accelerated
             Masters Program for Management Information Systems. Technology and
-            the way it works been my obsession for the last decade.
+            the way it works has been my obsession for the last decade.
           </p>
           <p className="aboutsub">
-            I am also like music, sustainability, and anything involving the history of technology.
+            I also love music, longboarding, and making posters in Illustrator.
           </p>
         </div>
       </div>
